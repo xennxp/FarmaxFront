@@ -1,0 +1,21 @@
+*{
+    margin: 10px 50px;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.imagem_login{
+    width: 488px;
+    height: auto;
+}
+
+.painel_direita{
+    text-align: center;
+}

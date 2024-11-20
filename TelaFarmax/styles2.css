@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1.5fr;
+    height: 100vh;
+}
+
+.nav_lateral img{
+    width: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.nav_lateral{
+    background-color: #f5f5f5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_nav{
+    background-color: #e0f7fa;
+    border: 1px solid #2ED2C5;
+    color: #2ED2C5;
+    height: 110px;
+    width: 120px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.barra_inicial{
+    display: flex;
+}
+
+.logout {
+    margin-top: 200px;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .tela_meio{
+    padding: 20px;
+  }
+
+  .barra_inicial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .barra_inicial input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .categorias{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .categorias button{
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
