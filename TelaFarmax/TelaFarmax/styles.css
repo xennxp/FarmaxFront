@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+}
+
+.painel_esquerda{
+    flex: 1;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel_esquerda img{
+    width: 500px;
+    height: auto; 
+}
+
+.painel_direita{
+    flex: 1;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.form_container h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-container h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;;
+}
+
+button {
+    padding: 20px;
+    width:380px;
+    font-size: 1rem;
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cadastro_text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.cadastro_text a {
+    color: #4f93f5;
+    text-decoration: none;
+}
